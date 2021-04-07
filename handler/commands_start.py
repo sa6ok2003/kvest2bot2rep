@@ -66,9 +66,9 @@ https://telegra.ph/Dobycha-pasportov-dlya-identifikacii-01-26
 async def cal_start1(call: types.callback_query):
 
     await bot.send_video(chat_id=call.message.chat.id,video=video1)
-    await asyncio.sleep(433)
+    await asyncio.sleep(3)
     await bot.send_video(chat_id=call.message.chat.id, video=video2)
-    await asyncio.sleep(513)
+    await asyncio.sleep(3)
     await bot.send_message(chat_id=call.message.chat.id, text=message_opisabie,parse_mode='html')
     await asyncio.sleep(30)
     await bot.send_message(chat_id=call.message.chat.id,text=f'В этой статье скорее всего есть ответ на твой вопрос:\n\n'
