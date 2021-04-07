@@ -17,4 +17,3 @@ setuptools        49.2.1
 TgCrypto          1.2.2
 typing-extensions 3.7.4.3
 yarl              1.6.3
-© 2021 GitHub, Inc.
